@@ -236,11 +236,9 @@ microservices/
 ```
 
 **Microservice Example - User Service:**
-
 [code](microservices/user-service/main.go)
 
 **Microservice Example - Order Service:**
-
 [code](microservices/order-service/main.go)
 
 **Key Characteristics:**
@@ -281,7 +279,6 @@ Because these services do not share memory, classes, or databases, the only way 
 - Authentication rules (JWT, OAuth, API keys)
 
 **It acts like a promise:**
-
 `“If you send me this request in this exact format,
 I will return this output in this exact format.”`
 
@@ -327,7 +324,6 @@ Because services do not share codebases or databases:
     This dramatically increases speed.
 
 - **Faster development cycles**
-
     **In a monolith:**
     - One change requires rebuilding the whole application
     - One bug can delay the entire release
@@ -343,7 +339,6 @@ Because services do not share codebases or databases:
     This results in shorter release cycles and faster time to market.
 
 - **Parallel development possible**
-
     In microservices architecture:
     - user-service team can work on user onboarding
     - order-service team can build new ordering workflows
@@ -372,7 +367,6 @@ Because services do not share codebases or databases:
     Monoliths cannot do this because everything must run on the same runtime/language.
 
 - **Gradual technology adoption**
-
     With microservices, you can gradually introduce new technologies without rewriting the entire system.
 
     **Example:**
@@ -504,4 +498,3 @@ type CodebaseComplexity struct {
     FeatureAddTime   time.Duration
 }
 ```
-
